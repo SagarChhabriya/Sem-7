@@ -382,3 +382,16 @@ While the list isn’t universally agreed upon, **six basic emotions** are commo
 * Managers cannot fully control emotions but must acknowledge and manage their impact.
 * Ignoring emotions reduces accuracy of behavior prediction.
 
+
+
+# Chapter 5: Personality and Individual Differences
+- Personality Framework
+  - Popularity Personality Model
+    - Emotion Stability, Extroversion, Openness, Agreeableness, Conscientiousness 
+  - Other Framweworks
+    - DISC, The HEXACO model
+  - Dark Triad
+
+# Chapter 6: Perception
+
+

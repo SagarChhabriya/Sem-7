@@ -1,3 +1,19 @@
+### Final Topics
+- Android Networking
+    - Retrofit2 plugins
+    - Self reading: Managment
+
+
+### Assignment: State Management
+- Need
+- Mutable with code
+- State Hosting with 
+- View model and LiveData Integration with code in detail
+
+
+
+
+
 ## Android Basics
 
 **Huawei vs Google**
@@ -170,3 +186,12 @@ https://www.geeksforgeeks.org/android/text-in-android-using-jetpack-compose/
 https://www.geeksforgeeks.org/android/button-in-android-using-jetpack-compose/
 
 Creation of Jetpack project
+
+
+---
+
+## After MID
+
+### Nov 07
+
+TODO: Chapter 5 of Book

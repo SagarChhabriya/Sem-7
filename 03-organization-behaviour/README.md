@@ -393,5 +393,28 @@ While the list isn’t universally agreed upon, **six basic emotions** are commo
   - Dark Triad
 
 # Chapter 6: Perception
+- Attribution Theory
+- Errors and Biases in Attribution
+  - Own Success: Internally attribute
+  - Own Failure: Extrenally attribute
+  - Others Success: Externally attribute
+  - Others Failure: Internally attribute
+
+- Common Shortcuts in Judging
+  - Selective Perception
+  - Halo/Horns
+  - Contrast Effect
+  - Stereotyping
+  - Applications of Shortcuts in Organization
+    - Employment Interview
+    - Performance Expectation
+      - Self-fulfilling prophecy: Your parents are making you remmeber their expectation and your brain start working on that
+      - Pygmalion: You make your brain remember the goal defined by you
+    - Bounded Rationality: Human has the power of sufficient decision making
+
+    - Risk Aversion is opposite of Risk Taker
+    - Hindsight bias: Yeh toh mujhe pata thaa
+
+  - Contrast the three ethical decision-criteria 
 
 

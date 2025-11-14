@@ -195,3 +195,16 @@ Creation of Jetpack project
 ### Nov 07
 
 TODO: Chapter 5 of Book
+
+### Nov 14
+- Firebase Auth
+- Kotlin Coroutines
+
+https://www.geeksforgeeks.org/android/kotlin-coroutines-on-android/
+
+Remember 
+
+dependencies {
+  implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:x.x.x")
+  implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:x.x.x")
+}

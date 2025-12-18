@@ -418,3 +418,11 @@ While the list isn’t universally agreed upon, **six basic emotions** are commo
   - Contrast the three ethical decision-criteria 
 
 
+
+# Chapter 7-8: Equity Theory
+
+
+
+
+
+

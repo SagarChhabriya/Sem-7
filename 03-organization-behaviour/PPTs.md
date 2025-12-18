@@ -1129,7 +1129,7 @@ To Motivate Employees
     - Link rewards to performance
     - Check the reward system for equity
 
-
+--------------------------------------------------------------------------------
 # Chapter 19: Organizational Change and Stress Management
 
 ### Forces for Change

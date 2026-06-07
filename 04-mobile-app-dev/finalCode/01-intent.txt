@@ -1,0 +1,134 @@
+=============
+activity_main.xml
+=================
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="25dp"
+	android:gravity="center"
+>
+
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="Name"
+	android:textSize="16dp"
+/>
+
+<EditText
+	android:layout_width="match_parent"
+	android:layout_height"wrap_content"
+	android:hint="Enter your name"
+	android:id="@+id/userNameField"
+/>
+
+<Button
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="Submit"
+	android:id="@+id/submitButton"
+/>
+
+</LinearLayout>
+
+
+
+
+=============
+activity_home.xml
+=============
+
+
+
+<LinearLayout
+	xmlns:app="http://schemas.android.com/apk/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="25dp"
+	android:gravity="center"
+>
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:id="@+id/nameTextView"
+/>
+
+</LinearLayout>
+
+
+=================
+MainActivity.java
+=================
+
+public class MainActivity extends AppCompactActivity{
+
+	EditText txtname;
+	Button btnLogin;
+
+
+@Override
+protected void onCreate(Bundle savedInstanceState){
+
+	super.onCreate(savedInstanceState);	
+	setContentView(R.layout.activity_main);
+
+	txtname = findViewById(R.id.userNameField);
+	btnLogin = findViewById(R.id.submitButton);
+
+butLogin.setOnClickListener(new View.OnClickListener(){
+	@Override
+	public void onClick(View v){
+		string name = txtname.getText().toString();
+
+		if(name.isEmpty()){
+			Toast.makeText(MainActivity.this, "Please Fill the Field", Toast.LENGTH_SHORT).show();
+		}
+		else{
+		
+		Intent intent = new Intent(MainActivity.this, HomeAct.class);
+		intent.putExtra("USERNAME", name);
+		startActivity(intent);
+
+		}
+	}
+ }
+});
+
+}
+
+
+=============
+HomeAct.java
+==============
+public class HomeAct extends AppCompatActivity {
+
+	TextView welcome;
+
+	@Override
+	protected void onCreate(Bundle saveInstanceState){
+		super.onCreate(saveInstanceState);
+		setContentView(R.layout.activity_home);
+
+		welcome = findViewById(R.id.nameTextView);
+
+		String usrename = getIntent().getStringExtra("USERNAME");
+		welcome.setText("Welcome" + username + "!");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
